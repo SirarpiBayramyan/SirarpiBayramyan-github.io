@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>FontMetrics Class Reference</title>
+    <title>UIColor Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/FontMetrics" class="dashAnchor"></a>
-    <a title="FontMetrics Class Reference"></a>
+    <a name="//apple_ref/swift/Extension/UIColor" class="dashAnchor"></a>
+    <a title="UIColor Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (0% documented)</p>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        FontMetrics Class Reference
+        UIColor Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -39,10 +39,7 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/FontMetrics.html">FontMetrics</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/FontMetricsss.html">FontMetricsss</a>
+                <a href="../Classes/DSColor.html">DSColor</a>
               </li>
             </ul>
           </li>
@@ -50,18 +47,7 @@
             <a href="../Extensions.html">Extensions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/NSNotification.html">NSNotification</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Extensions/NSNotification/Name.html">– Name</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="../Protocols.html">Protocols</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="../Protocols/UIContentSizeCategoryDelegate.html">UIContentSizeCategoryDelegate</a>
+                <a href="../Extensions/UIColor.html">UIColor</a>
               </li>
             </ul>
           </li>
@@ -70,19 +56,8 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>FontMetrics</h1>
-              <div class="declaration">
-                <div class="language">
-                  
-                  
-                </div>
-              </div>
-            <p>A <code>UIFontMetrics</code> wrapper class, allowing iOS 11 devices to take advantage of <code>UIFontMetrics</code>
-scaling, while earlier iOS versions fall back on a scale calculation. Optionally assignable
-sizeCategory: UIContentSizeCategory to override the system Accessibility settings for uni
-testing. Manually adjusting the accessibility dynamic text slider will reset the manually
-assigned sizeCategory value.</p>
-
+            <h1>UIColor</h1>
+            
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -91,8 +66,8 @@ assigned sizeCategory value.</p>
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Variable/default" class="dashAnchor"></a>
-                    <a class="token" href="#/">default</a>
+                    <a name="//apple_ref/swift/Property/dsHueComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/">dsHueComponent</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -100,9 +75,61 @@ assigned sizeCategory value.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>By declaring <code>default</code> as a static let, we will be able to use a globally consistent
-instance of <code>FontMetrics</code>. It behaves similarly to <code>NotificationCenter.default</code> or
-<code>UIDevice.current</code>.</p>
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Property/dsHue" class="dashAnchor"></a>
+                    <a class="token" href="#/">dsHue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/dsArgbHexString()" class="dashAnchor"></a>
+                    <a class="token" href="#/">dsArgbHexString()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/dsHexString()" class="dashAnchor"></a>
+                    <a class="token" href="#/">dsHexString()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates hexString from UIColor</p>
 
                       </div>
                     </section>
@@ -112,8 +139,8 @@ instance of <code>FontMetrics</code>. It behaves similarly to <code>Notification
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
-                    <a class="token" href="#/">delegate</a>
+                    <a name="//apple_ref/swift/Method/dsHexInt()" class="dashAnchor"></a>
+                    <a class="token" href="#/">dsHexInt()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -121,7 +148,7 @@ instance of <code>FontMetrics</code>. It behaves similarly to <code>Notification
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A delegate which will handle the change of the system&rsquo;s actual setting of Dynamic Type size.</p>
+                        <p>Creates hexInt from UIColor</p>
 
                       </div>
                     </section>
@@ -131,8 +158,8 @@ instance of <code>FontMetrics</code>. It behaves similarly to <code>Notification
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Property/sizeCategory" class="dashAnchor"></a>
-                    <a class="token" href="#/">sizeCategory</a>
+                    <a name="//apple_ref/swift/Method/isEqual(to:withAccuracy:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">isEqual(to:<wbr>withAccuracy:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -140,8 +167,7 @@ instance of <code>FontMetrics</code>. It behaves similarly to <code>Notification
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Public variable to hold preferred content size. Assigning a new value will post the
-FontMetricsContentSizeCategoryDidChange notification.</p>
+                        <p>Compares colors</p>
 
                       </div>
                     </section>
@@ -151,8 +177,8 @@ FontMetricsContentSizeCategoryDidChange notification.</p>
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/scaledFont(for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">scaledFont(for:<wbr>)</a>
+                    <a name="//apple_ref/swift/Method/isEqual(to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">isEqual(to:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -160,7 +186,7 @@ FontMetricsContentSizeCategoryDidChange notification.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Returns a version of the specified font that adopts the current font metrics.</p>
+                        <p>Compares colors</p>
 
                       </div>
                     </section>
@@ -170,8 +196,8 @@ FontMetricsContentSizeCategoryDidChange notification.</p>
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/scaledFont(for:maximumPointSize:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">scaledFont(for:<wbr>maximumPointSize:<wbr>)</a>
+                    <a name="//apple_ref/swift/Method/supplementaryDsColor()" class="dashAnchor"></a>
+                    <a class="token" href="#/">supplementaryDsColor()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -179,9 +205,7 @@ FontMetricsContentSizeCategoryDidChange notification.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Returns a version of the specified font that adopts the current font metrics and is
-constrained to the specified maximum size.</p>
-
+                        
                       </div>
                     </section>
                   </div>
@@ -190,27 +214,8 @@ constrained to the specified maximum size.</p>
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/scaledValue(for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">scaledValue(for:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Scales an arbitrary layout value based on the current Dynamic Type settings.</p>
-
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/contentSizeCategoryChanged()" class="dashAnchor"></a>
-                    <a class="token" href="#/">contentSizeCategoryChanged()</a>
+                    <a name="//apple_ref/swift/Method/nearestDsColor()" class="dashAnchor"></a>
+                    <a class="token" href="#/">nearestDsColor()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -228,8 +233,8 @@ constrained to the specified maximum size.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-09-15)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="noopener" rel="external"></a>. All rights reserved. (Last updated: 2021-08-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

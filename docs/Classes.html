@@ -39,29 +39,7 @@
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="Classes/FontMetrics.html">FontMetrics</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/FontMetricsss.html">FontMetricsss</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Extensions.html">Extensions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Extensions/NSNotification.html">NSNotification</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Extensions/NSNotification/Name.html">– Name</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
-            <a href="Protocols.html">Protocols</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Protocols/UIContentSizeCategoryDelegate.html">UIContentSizeCategoryDelegate</a>
+                <a href="Classes/DSColor.html">DSColor</a>
               </li>
             </ul>
           </li>
@@ -81,8 +59,8 @@
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Class/FontMetrics" class="dashAnchor"></a>
-                    <a class="token" href="#/">FontMetrics</a>
+                    <a name="//apple_ref/swift/Class/DSColor" class="dashAnchor"></a>
+                    <a class="token" href="#/">DSColor</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -90,51 +68,29 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A <code>UIFontMetrics</code> wrapper class, allowing iOS 11 devices to take advantage of <code>UIFontMetrics</code>
-scaling, while earlier iOS versions fall back on a scale calculation. Optionally assignable
-sizeCategory: UIContentSizeCategory to override the system Accessibility settings for uni
-testing. Manually adjusting the accessibility dynamic text slider will reset the manually
-assigned sizeCategory value.</p>
+                        <p>DSColor covers the UIColor AP
+ Design System Colors defined on assets catalog, so they supports Dark/Light modes
+(color names will be changed after designers disscussions)</p>
 
-                        <a href="Classes/FontMetrics.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/"></a>
-                    <a name="//apple_ref/swift/Class/FontMetricsss" class="dashAnchor"></a>
-                    <a class="token" href="#/">FontMetricsss</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>A <code>UIFontMetrics</code> wrapper class, allowing iOS 11 devices to take advantage of <code>UIFontMetrics</code>
-scaling, while earlier iOS versions fall back on a scale calculation. Optionally assignable
-sizeCategory: UIContentSizeCategory to override the system Accessibility settings for uni
-testing. Manually adjusting the accessibility dynamic text slider will reset the manually
-assigned sizeCategory value.</p>
+<p>(usage example in Swift)</p>
 
-                        <a href="Classes/FontMetricsss.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          
-                        </div>
+<p>colorView.backgroundColor = DSColor.primary</p>
+
+<p>(usage example in objective C )</p>
+
+<p>colorLabel.textColor = [DSColor typographySecondary];</p>
+
+<p>(usage example in SwiftUI )</p>
+
+<p>let backgroundColor = Color(DSColor.primary)</p>
+
+<p>let color1 = Color(&ldquo;primaryPurple&rdquo;)</p>
+
+<p>var body: some View {
+    .background(backgroundColor)
+  }</p>
+
+                        <a href="Classes/DSColor.html" class="slightly-smaller">See more</a>
                       </div>
                     </section>
                   </div>
@@ -144,8 +100,8 @@ assigned sizeCategory value.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-09-15)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="noopener" rel="external"></a>. All rights reserved. (Last updated: 2021-08-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
